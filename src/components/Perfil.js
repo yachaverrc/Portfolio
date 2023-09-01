@@ -25,7 +25,7 @@ function Perfil() {
               <div className="image-grid">
                 <div class="polaroid">
                     <a href="#" title="A good day!">
-                        <img height="30" src="https://drive.google.com/file/d/1U_RsVyE8OskTKqdcKv8o00fSpmRYtXCE/view?usp=drive_link"/>
+                        <img height="30" src="https://drive.google.com/uc?export=view&id=1U_RsVyE8OskTKqdcKv8o00fSpmRYtXCE"/>
                     </a>
                 </div>
               </div>

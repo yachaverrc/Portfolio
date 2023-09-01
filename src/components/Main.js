@@ -9,7 +9,7 @@ function Main() {
           <div className="row">
             <div className="col-md-5">
               <img
-                src="https://drive.google.com/file/d/15sDejVe5p1l95Ll6j07FCH7fry3816Xh/view?usp=drive_link"
+                src="https://drive.google.com/uc?export=view&id=15sDejVe5p1l95Ll6j07FCH7fry3816Xh&rl"
                 alt="Imagen personal"
                 className="img-fluid rounded-circle"
               />

@@ -10,7 +10,7 @@ function Projects() {
             <div className="col-md-4">
               <div className="card mb-4 project-card">
                 <img
-                  src="https://drive.google.com/file/d/1_rBdzc2MDSZUXs-8JpackEB3-hvZDEBI/view?usp=sharing"
+                  src="https://drive.google.com/uc?export=view&id=1_rBdzc2MDSZUXs-8JpackEB3-hvZDEBI"
                   alt="Proyecto 1"
                   className="card-img-top"
                 />
@@ -25,7 +25,7 @@ function Projects() {
             <div className="col-md-4">
               <div className="card mb-4 project-card">
                 <img 
-                  src="https://drive.google.com/file/d/1vZQ2OgXYs932dfzy7h9rsIuVuwSjbA9w/view?usp=drive_link"
+                  src="https://drive.google.com/uc?export=view&id=1vZQ2OgXYs932dfzy7h9rsIuVuwSjbA9w"
                   alt="Proyecto 2"
                   className="card-img-top"
                 />

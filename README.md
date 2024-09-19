@@ -1,4 +1,4 @@
-# Portafolio de [Yhilmar Chaverra]
+# Portafolio de Yhilmar Chaverra.
 
 ## Descripción
 Este es mi portafolio personal como Ingeniero en Sistemas. Aquí presento una muestra de mis proyectos, habilidades y experiencia. El portafolio está construido utilizando React y otras tecnologías web modernas.

@@ -16,23 +16,42 @@
     font-family: 'Montserrat', sans-serif;
 }
 .polaroid a:after {
-color: #333;
-font-size: 25px;
-content: attr(title);
-position: relative;
-top: 15px;
+    color: #333;
+    font-size: 25px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
 }
 .polaroid img {
-display: block;
-width: 300px;
+    display: block;
+    width: 200px;
 }
 
 .polaroid a:hover {
--webkit-transform: scale(1.2);
--moz-transform: scale(1.2);
-transform: scale(1.2);
-z-index: 10;
--webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
--moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
+
+/* Añade estos estilos en tu archivo polaroid.css */
+
+.card {
+    background-color: transparent; /* Sin color de fondo */
+    border: 2px solid #f06; /* Borde rosado */
+}
+
+.card-text {
+    color: #ffffff; /* Texto blanco */
+}
+
+.card-title {
+    color: #f06; /* Título rosado */
+}
+
+.border-custom {
+    border: 2px solid #f06; /* Borde rosado personalizado */
 }

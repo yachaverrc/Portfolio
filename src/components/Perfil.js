@@ -2,32 +2,83 @@
 import React from 'react';
 
 function Perfil() {
+  // Estilos en línea
+  const sectionStyle = {
+    padding: '5rem 0',
+    display: 'flex',
+    alignItems: 'center',
+  };
+
+  const cardStyle = {
+    backgroundColor: 'transparent', // Sin color de fondo
+    border: '2px solid #f06', // Borde rosado
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Sombra
+    borderRadius: '8px',
+    width: '100%',
+  };
+
+  const cardBodyStyle = {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    padding: '2rem',
+  };
+
+  const titleStyle = {
+    color: '#f06', // Título rosado
+    marginBottom: '1rem',
+  };
+
+  const textStyle = {
+    color: '#fff', // Texto blanco
+  };
+
+  const imageContainerStyle = {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+  };
+
+  const polaroidStyle = {
+    marginBottom: '1rem',
+  };
+
+  const imgStyle = {
+    borderRadius: '8px',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+  };
+
   return (
-    <section id="perfil" className="py-5">
+    <section id="perfil" style={sectionStyle}>
       <div className="container">
-        <div className="row">
-          <div className="col-md-7">
-            <div className="perfil-text">
-              <h2>Mi Perfil</h2>
-              <p>Soy un estudiante de Ingeniería de sistemas con conocimientos en lo que 
-                respecta al desarrollo de software, uso de frontend y backend para estructurar 
-                páginas web, además poseo conocimiento en metodologías ágiles, mi área de mayor 
-                interés es el mundo de los DevOps, integrar proyectos de software en infraestructura de T.I.
-                <br></br> 
-                <br></br> 
-                Me considero una persona empática, con habilidades de diálogo, responsable, sociable, soy una persona muy participativa en equipos de trabajo, entregado a dar lo mejor de mi en cada aspecto de la vida e interesado en aprender diariamente para mejorar mi desempeño en un entorno laboral.
-                </p>
+        <div className="row align-items-center justify-content-center">
+          {/* Card con el perfil de texto */}
+          <div className="col-md-7 mb-4 d-flex">
+            <div className="card" style={cardStyle}>
+              <div className="card-body" style={cardBodyStyle}>
+                <h2 className="card-title" style={titleStyle}>Mi Perfil</h2>
+                <p className="card-text" style={textStyle}>
+                Soy estudiante de Ingeniería de Sistemas con experiencia en desarrollo de software y metodologías ágiles. Tengo conocimientos en frontend y backend para crear y estructurar páginas web. Mi interés principal es en DevOps, integrando proyectos de software en infraestructura de TI.
+                <br />
+                <br />
+                Me considero empático, responsable y sociable, con habilidades de diálogo y participación en equipos de trabajo. Estoy comprometido a aprender y mejorar continuamente en mi desempeño profesional.
+              </p>
+              </div>
             </div>
           </div>
+
+          {/* Imágenes en estilo polaroid */}
           <div className="col-md-5">
-            <div className="perfil-images">
-              {/* Aquí irán las 4 imágenes */}
-              <div className="image-grid">
-                <div class="polaroid">
-                    <a href="#" title="A good day!">
-                        <img height="30" src="https://drive.google.com/uc?export=view&id=1U_RsVyE8OskTKqdcKv8o00fSpmRYtXCE"/>
-                    </a>
-                </div>
+            <div style={imageContainerStyle}>
+              <div className="polaroid" style={polaroidStyle}>
+                <a href="#" title="">
+                  <img
+                    className="img-fluid rounded"
+                    src="https://imgur.com/vWNTgr8.jpg"
+                    alt="Perfil"
+                    style={imgStyle}
+                  />
+                </a>
               </div>
             </div>
           </div>

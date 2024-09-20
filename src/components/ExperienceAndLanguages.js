@@ -12,6 +12,7 @@ function ExperienceAndLanguages() {
     { role: 'Monitor Administrativo en Desarrollo Estudiantil', company: 'EAFIT', year: 2020 },
     { role: 'Monitor Administrativo en la Universidad de los Niños', company: 'EAFIT', year: 2022 },
     { role: 'Desarrollador Full stack y gestor de infraestructura', company: 'BPO Consultores', year: 2024 },
+    { role: 'Desarrollador Back y despliegue de aplicaciones', company: 'Acacia Dev', year: 2024}
   ];
 
   const sectionStyle = {

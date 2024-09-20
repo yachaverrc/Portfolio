@@ -35,11 +35,11 @@ function Skills() {
   };  
 
   return (
-    <section id="skills" className="py-5">
+    <section id="skills" className="py-5" style={{ backgroundColor: 'transparent', color: '#ffffff' }}>
       <div className="container">
         {/* Título de la página */}
-        <h1 className="text-center text-white mb-4">Mis Habilidades y Tecnologías</h1>
-        <p className="text-center text-white mb-5">
+        <h1 className="text-center mb-4">Mis Habilidades y Tecnologías</h1>
+        <p className="text-center mb-5" style={{ fontSize: '1.2rem' }}>
           A continuación, se muestran mis habilidades y las herramientas que manejo, organizadas por categorías.
         </p>
 
@@ -47,21 +47,22 @@ function Skills() {
         {Object.keys(skillsByCategory).map((category, categoryIndex) => (
           <div key={categoryIndex} className="mb-5">
             {/* Título de cada categoría */}
-            <h2 className="text-center text-white mb-4">{category}</h2>
+            <h2 className="text-center mb-4" style={{ borderBottom: '2px solid #ffffff', paddingBottom: '10px' }}>
+              {category}
+            </h2>
             <div className="row">
               {skillsByCategory[category].map((skill, skillIndex) => (
                 <div key={skillIndex} className="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                  <div className="card skill-card text-center">
+                  <div className="card skill-card text-center" style={{backgroundColor: '#333', borderRadius: '8px', border: '2px solid #f06', padding: '20px' }}>
                     <a href={skill.link} target="_blank" rel="noreferrer">
                       <img
                         src={skill.img}
                         alt={skill.name}
                         className="skill-icon img-fluid"
-                        width="50"
-                        height="50"
+                        style={{ width: '60px', height: '60px' }}
                       />
                     </a>
-                    <p className="mt-2 text-black">{skill.name}</p>
+                    <p className="mt-2" style={{ color: '#ffffff', fontWeight: 'bold' }}>{skill.name}</p>
                   </div>
                 </div>
               ))}

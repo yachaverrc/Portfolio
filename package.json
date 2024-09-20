@@ -2,7 +2,7 @@
   "name": "portfolioy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yachaverrc.github.io/Portfolio",
+  "homepage": "https://yachaverrc.vercel.app",
   "dependencies": {
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
@@ -21,8 +21,6 @@
     "web-vitals": "^4.2.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
